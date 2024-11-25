@@ -1,0 +1,205 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ededed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    
+  }
+  
+
+
+
+  .plans-container {
+    display: flex;
+    gap: 20px;
+  }
+
+
+
+
+
+  
+  .plan {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 14px 6px grey;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+  
+  .image-container {
+    background-color: #ededed;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+
+
+  .image-container img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 8px;
+  }
+  
+  .plan h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+  }
+
+
+  
+  .plan p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+  }
+
+
+
+
+  .price2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    margin: 10px 0;
+  }
+
+
+
+
+  .price3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+    margin: 10px 0;
+  }
+  
+  .stars {
+    color: #FFD700; 
+    margin: 10px 0;
+  }
+
+  
+
+
+  
+  
+
+
+
+
+  button {
+    background-color: #4A3EEC;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 0 0 8px 8px; 
+    cursor: pointer;
+    width: 100%; 
+    position: relative;
+    top: 20px;
+  }
+
+
+
+
+  .boton {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 0 0 8px 8px; 
+    cursor: pointer;
+    width: 113.4%; 
+    position: relative;
+    right: 20px;
+  }
+  
+
+
+
+   .boton2 {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 0 0 8px 8px; 
+    cursor: pointer;
+    width: 100%; 
+    width: 113.4%; 
+    position: relative;
+    right: 20px;
+  }
+  
+
+
+.boton3 {
+    background-color: #4A3EEC;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 0 0 8px 8px; 
+    cursor: pointer;
+    width: 100%; 
+    width: 113.4%; 
+    position: relative;
+    right: 20px;
+  }
+  
+  
+
+
+
+
+
+  .boton:hover {
+    background-color: #7573a2;
+  }
+
+  .boton2:hover {
+    background-color: #9f3232;
+  }
+
+
+   .boton3:hover {
+    background-color: #131141;
+  }
+  
